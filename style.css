@@ -1,0 +1,89 @@
+/*---------- CONTAINER ---------- */
+#container {
+	max-width: 600px;
+	height: 400px;
+	margin: 0 auto;
+	display: grid;
+	border: 1px solid #ccc;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 992px) and (min-width: 
+
+200px;) {
+  #container {
+    flex: 50%;
+  }
+}
+/* ---------- FIM ----------*/
+
+/*---------- AVATAR ----------*/
+.box {
+  display: flex;
+  align-items: flex-start;
+  background-size: cover;
+}
+.box>*:nth-child(1) {
+    align-self: center;
+    width: 60px;
+	height: 60px;
+	border-radius: 90px;
+	margin-top: 60px;
+    background-color: #cc66cc;
+}
+
+.box>*:nth-child(2) {
+    align-self: center;
+    width: 70px;
+	height: 70px;
+	border-radius: 90px;
+    background-color: black;
+}
+
+.box *:nth-child(3) {
+    align-self: center;
+    width: 60px;
+	height: 60px;
+	border-radius: 90px;
+	margin-top: 80px;
+    background-color: red;
+}
+
+/*---------- PODIO ---------- */
+.podio {
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end; /*bottom to top*/
+	justify-content: flex-end; 
+}
+
+
+ @media screen and (max-width: 992px) and (min-width: 
+
+200px;) {
+  .podio {
+    flex: 50%;
+  }
+}
+
+
+
+/*---------- FIM ---------- */
+
+/*---------- ANIMAÇÃO ---------- */ 
+.podio img { animation: animacao 5s ease forwards 
+
+alternate; 
+}
+
+@keyframes animacao {
+   from { 
+    height: 5px;
+  }
+   to { 
+    height: 250px;
+  }
+}
+/* ---------- FIM ----------*/
