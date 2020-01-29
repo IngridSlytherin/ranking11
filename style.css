@@ -9,7 +9,7 @@
 	flex-wrap: wrap;
 }
 
-@media screen and (max-width: 992px) and (min-width: 90px;) {
+@media screen and (max-width: 1280px) and (min-width: 320px;) {
   #container {
     flex: 50%;
   }
@@ -19,10 +19,10 @@
 /*---------- AVATAR ----------*/
 .box {
   display: flex;
-  align-items: flex-start;
+  align-items: flex-end;
   background-size: cover;
 }
-@media screen and (max-width: 992px) and (min-width: 90px;) {
+@media screen and (max-width: 1280px) and (min-width: 320px;) {
   .box {
     flex: 50%;
   }
@@ -37,7 +37,7 @@
     background-color: #cc66cc;
 }
 
-@media screen and (max-width: 992px) and (min-width: 90px;) {
+@media screen and (max-width: 1280px) and (min-width: 320px;) {
   .box>*:nth-child(1){
     flex: 50%;
   }
@@ -52,7 +52,7 @@
     background-color: black;
 }
 
-@media screen and (max-width: 992px) and (min-width: 90px;) {
+@media screen and (max-width: 1280px) and (min-width: 320px;) {
   .box>*:nth-child(2){
     flex: 50%;
   }
@@ -68,7 +68,7 @@
     background-color: red;
 }
 
-@media screen and (max-width: 992px) and (min-width: 90px;) {
+@media screen and (max-width: 1280px) and (min-width: 320px;) {
   .box>*:nth-child(3){
     flex: 100%;
   }
@@ -85,7 +85,7 @@
 }
 
 
- @media screen and (max-width: 992px) and (min-width: 90px;) {
+ @media screen and (max-width: 1280px) and (min-width: 320px;) {
   .podio {
     flex: 100%;
   }
@@ -110,7 +110,7 @@ alternate;
   }
 }
 
-@media screen and (max-width: 992px) and (min-width: 90px;) {
+@media screen and (max-width: 1280px) and (min-width: 320px;) {
   .podio img{
     flex: 50%;
   }
